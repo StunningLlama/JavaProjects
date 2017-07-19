@@ -1,0 +1,5 @@
+name: WorldEntryCommands
+version: 1.0
+author: thepowderguy
+description: Provides join and leave commands per world
+main: com.powder.WorldEntryCommands

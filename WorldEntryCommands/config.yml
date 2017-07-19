@@ -1,0 +1,5 @@
+### EXAMPLE ###
+
+# <world name>:
+#   joincommand: <command here>
+#   leavecommand: <command here>

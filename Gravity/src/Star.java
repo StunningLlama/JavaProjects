@@ -1,0 +1,23 @@
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
+
+
+public class Star extends Body{
+
+	public Star(double ix, double iz, double ivx, double ivz, double imass) {
+		super(ix, iz, ivx, ivz, imass);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void Render(Graphics g, int x, int y) {
+		g.setColor(Color.YELLOW);
+		//g.fillOval(x-20, y-20, 40, 40);
+		g.fillRect(x-2, y-2, 5, 5);
+		g.setColor(new Color(0, 127, 127));
+		g.setFont(new Font("Arial", Font.PLAIN, 10));
+		g.drawString(name, x+5, y+8);
+	}
+	
+}

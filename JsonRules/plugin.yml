@@ -1,0 +1,16 @@
+name: JsonRules
+version: 1.0
+main: com.powder.JsonRules
+author: thepowderguy
+description: Adds json /rules
+depend: [ProtocolLib]
+commands:
+  rules:
+    description: views rules
+  reloadrules:
+    description: reloads rules
+    permission: JsonRules.reload
+permissions:
+  JsonRules.reload:
+    description: Permission fo r/reloadrules
+    default: op
